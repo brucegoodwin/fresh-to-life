@@ -1,0 +1,46 @@
+
+
+
+
+
+
+.container {
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  background-image: url('../images/lady-yellow2.jpg');
+}
+
+
+.header {
+
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+
+.navbar{
+  
+  text-align: center;
+  align-items:stretch;
+  font-size: 25px;
+  height: 75px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
