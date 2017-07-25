@@ -13,8 +13,13 @@
   background-image: url('../images/lady-yellow2.jpg');
 }
 
-
-.header {
+ ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+header {
 
   text-align: center;
   font-size: 32px;
@@ -22,18 +27,17 @@
 }
 
 
-.navbar{
-  
-  text-align: center;
+ navbar{
   align-items:stretch;
   font-size: 25px;
   height: 75px;
   color: white;
 }
 
+ footer {
+   align-items: flex-end;
 
-
-
+}
 
 
 
