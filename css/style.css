@@ -1,0 +1,69 @@
+
+/*font-family: 'Bellefair', serif; - for all of the actual paragraphs
+font-family: 'Pacifico', cursive; - for the title font
+font-family: 'Marck Script', cursive;
+font-family: 'Yellowtail', cursive;
+
+*/
+
+body {
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+/* min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;*/
+  background-color: #f4d897;
+  justify-content: center;
+   /*position: relative;
+  was thinking of using background-size:contain, but it stretches
+  too much and repeats on larger monitors such as mine */
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+nav {
+ height: 100px;
+ width: max;
+}
+
+ul {
+   
+ position: fixed;
+ /*align-items:stretch;*/
+  font-size: 20px;
+  height: 45px;
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  align-items:baseline;
+   
+  font-family: 'Yellowtail', cursive;
+  /*font-family: 'Shrikhand', cursive;*/
+}
+ li {
+background-color: #f4d897;
+  text-decoration: none;
+  
+ }
+ p {
+  font-family: 'Bellefair', serif; 
+ font-size: 25pt;
+}
+ 
+ 

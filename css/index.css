@@ -1,50 +1,91 @@
 
 
-
-
-
+/*
+font-family: 'Bellefair', serif; - all the writing on the site
+font-family: 'Pacifico', cursive; header font
+font-family: 'Marck Script', cursive;
+font-family: 'Yellowtail', cursive;
+*/
 
 .container {
-  font-size: 18px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  height: 1000px;
-  background-image: url('../images/lady-yellow2.jpg');
-}
-
- ul {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-  
-}
-header {
-
-  text-align: center;
-  font-size: 32px;
-  color: white;
+ min-height: 900px;
+ min-width: 900px;
+ color: #30471c;
+ display: flex;
+ justify-content: center;
+ background-image: url('../images/lady-in-yellow-6.jpg');
+ background-attachment: fixed;
+ /*background-color:#f4d897; use this for the content pages*/
 }
 
 
- navbar{
-  align-items:stretch;
-  font-size: 25px;
-  height: 75px;
-  color: white;
+.stuff {
+ flex-direction:row;
+ flex-wrap:wrap;
+ /*background-color: #f4d897; use this on the other pages for background colors to scroll*/
+ min-width: 400px;
+ position: fixed;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 0px;
+ /*align-items:center;
+ align-content:center;*/
+ 
 }
 
- footer {
-   align-items: flex-end;
 
+h1 {
+font-size: 85pt;
+ font-family: 'Pacifico', cursive;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 0px;
+ /*text-align: center;
+ align-items:center;*/
 }
 
+/*h3 {
+ font-family: 'Pacifico', cursive;
+ font-size: 25pt;
+ text-align: center;
+ margin-right: 5px;
+ margin-left: 5px;
+ padding:15px;
+ justify-content: center;
+}
+see html notes!
+*/
 
+nav {
+ justify-content: center;
+ text-decoration: none;
+ flex-wrap:wrap;
+ position: fixed;
+ padding: 50px;
+ margin-top: 80px;
+ margin-right: 20px;
+ margin-left: 20px;
+color:white;
+}
 
+a{
+ color: #30471c;
+ text-decoration: none;
+}
 
+a:hover{
+ color: #f4779e;
+}
 
-
-
+li {
+ align-items:stretch;
+ justify-content: center;
+ flex-wrap:wrap;
+ font-size: 20pt;
+ font-family: 'Bellefair', serif;
+ display: inline-block;
+ padding: 25px;
+}
 
 
 
