@@ -1,3 +1,4 @@
+
 /*
 font-family: 'Bellefair', serif; - all the writing on the site
 font-family: 'Pacifico', cursive; header font
@@ -7,7 +8,7 @@ font-family: 'Yellowtail', cursive; maybe might use it
 
 .container {
  min-height: 200px;
- min-width: 900px;
+ min-width: 1000px;
  color: #30471c;
  display: flex;
  justify-content: center;
@@ -91,14 +92,11 @@ li {
  text-align: center;
  align-content:center;
 }
-
 /*insert image css here*/
 img {
  flex-wrap:wrap;
- margin-right:600px;
- margin-left:600px;
-
- 
+margin-left: 575px;
+margin-right: 575px;
  /*background-color: #f4d897;*/
  
 }
@@ -108,8 +106,8 @@ h2 {
 color:#f4779e;
 font-size: 40pt;
  font-family: 'Pacifico', cursive;
- margin-left: 100px;
- margin-right:100px;
+ margin-left: 500px;
+ margin-right:500px;
  
 }
 /*for text /content below */
