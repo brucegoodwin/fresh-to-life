@@ -1,69 +1,143 @@
 
-/*font-family: 'Bellefair', serif; - for all of the actual paragraphs
-font-family: 'Pacifico', cursive; - for the title font
-font-family: 'Marck Script', cursive;
-font-family: 'Yellowtail', cursive;
-
+/*
+font-family: 'Bellefair', serif; - all the writing on the site
+font-family: 'Pacifico', cursive; header font
+font-family: 'Marck Script', cursive; maybe might use it
+font-family: 'Yellowtail', cursive; maybe might use it
 */
 
-body {
-  font-size: 18px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-/* min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;*/
-  background-color: #f4d897;
-  justify-content: center;
-   /*position: relative;
-  was thinking of using background-size:contain, but it stretches
-  too much and repeats on larger monitors such as mine */
-}
-
-
 .container {
-    text-align: center;
+ min-height: 200px;
+ min-width: 900px;
+ color: #30471c;
+ display: flex;
+ justify-content: center;
+ /* position: fixed;*/
+background-color:#f4d897; 
+ 
 }
 
 
+.stuff {
+ flex-direction:row;
+ flex-wrap:wrap;
+ position: fixed;
+ /*background-color: #f4d897; use this on the other pages for background colors to scroll*/
+ /*margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 0px;*/
+ align-items:center;
+ align-content:center;
+ }
 
 
+h1 {
+font-size: 85pt;
+ font-family: 'Pacifico', cursive;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 0px;
+ background-color:#f4d897;
+ text-align: center;
+ align-items:center;*/
+}
 
-
-
+/*h3 {
+ font-family: 'Pacifico', cursive;
+ font-size: 25pt;
+ text-align: center;
+ margin-right: 5px;
+ margin-left: 5px;
+ padding:15px;
+ justify-content: center;
+}
+see html notes!
+*/
 
 nav {
- height: 100px;
- width: max;
+ justify-content: center;
+ text-decoration: none;
+ flex-wrap:wrap;
+ position: fixed;
+ padding: 50px;
+ margin-top: 80px;
+ margin-right: 20px;
+ margin-left: 20px;
 }
 
-ul {
-   
- position: fixed;
- /*align-items:stretch;*/
-  font-size: 20px;
-  height: 45px;
-  color: white;
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-  align-items:baseline;
-   
-  font-family: 'Yellowtail', cursive;
-  /*font-family: 'Shrikhand', cursive;*/
-}
- li {
-background-color: #f4d897;
-  text-decoration: none;
-  
+a{
+ color: #30471c;
+ text-decoration: none;
  }
- p {
-  font-family: 'Bellefair', serif; 
- font-size: 25pt;
+
+a:hover{
+ color: #f4779e;
 }
+
+li {
+ align-items:stretch;
+ justify-content: center;
+ flex-wrap:wrap;
+ font-size: 20pt;
+ font-family: 'Bellefair', serif;
+ display: inline-block;
+ padding: 25px;
+}
+
+.content {
+ display: flex;
+ flex-wrap:wrap;
+ background-color:#f4d897;
+ padding: 10px;
+ text-align: center;
+ align-content:center;
+}
+
+/*insert image css here*/
+
+img {
+ flex-wrap:wrap;
+ margin-right:600px;
+ margin-left:550px;
  
+
  
+ /*background-color: #f4d897;*/
+ 
+}
+
+h2 {
+ flex-wrap:wrap;
+color:#f4779e;
+font-size: 40pt;
+ font-family: 'Pacifico', cursive;
+ margin-left: 350px;
+ margin-right:100px;
+ 
+}
+/*for text /content below */
+p {
+ flex-wrap:wrap;
+ width: 50%;
+ justify-content:center;
+ font-family: 'Bellefair', serif;
+ font-size: 20px;
+ background-color:#f4d897;
+ text-align: left;
+ line-height: 30px;
+ margin-left: 400px;
+ margin-right:300px;
+}
+
+/*paranoid, keeping just in case!*/
+/*p h4{
+ text-align: center;
+ width: 80%;
+ float: right;
+ font-family: 'Bellefair', serif;
+ font-size: 20px;
+ background-color: white;
+ padding: 200px;
+ line-height: 50px;
+}
+*/
