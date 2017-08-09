@@ -39,7 +39,7 @@ font-size: 85pt;
  margin-top: 0px;
  background-color:#f4d897;
  text-align: center;
- align-items:center;*/
+ align-items:center;
 }
 
 /*h3 {
@@ -91,17 +91,14 @@ li {
  padding: 10px;
  text-align: center;
  align-content:center;
+ font-family: 'Bellefair', serif;
 }
 
 /*insert image css here*/
 
 img {
  flex-wrap:wrap;
- margin-right:600px;
- margin-left:550px;
- 
-
- 
+ margin:0 auto;
  /*background-color: #f4d897;*/
  
 }

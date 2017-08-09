@@ -95,8 +95,7 @@ li {
 /*insert image css here*/
 img {
  flex-wrap:wrap;
-margin-left: 575px;
-margin-right: 575px;
+margin:0 auto;
  /*background-color: #f4d897;*/
  
 }
@@ -107,8 +106,7 @@ color:#f4779e;
 font-size: 40pt;
  font-family: 'Pacifico', cursive;
  margin-left: 500px;
- margin-right:500px;
- 
+ margin-right:200px;
 }
 /*for text /content below */
 p {
@@ -120,8 +118,9 @@ p {
  background-color:#f4d897;
  text-align: left;
  line-height: 30px;
- margin-left: 400px;
- margin-right:300px;
+ margin: 0 auto;
+ /*margin-left: 400px;
+ margin-right:300px;*/
 }
 
 /*paranoid, keeping just in case!*/

@@ -96,8 +96,7 @@ li {
 
 img {
  flex-wrap:wrap;
- margin-right:600px;
- margin-left:590px;
+ margin:0 auto;
  
 
  
@@ -124,8 +123,7 @@ p {
  background-color:#f4d897;
  text-align: left;
  line-height: 30px;
- margin-left: 400px;
- margin-right:300px;
+ margin: 0 auto;
 }
 
 /*paranoid, keeping just in case!*/
