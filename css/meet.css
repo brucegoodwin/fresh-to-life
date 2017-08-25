@@ -12,7 +12,7 @@ font-family: 'Yellowtail', cursive; maybe might use it
  display: flex;
  justify-content: center;
  /* position: fixed;*/
-background-color:#f4d897; 
+background-color:#fcc163; 
  
 }
 
@@ -36,9 +36,9 @@ font-size: 85pt;
  margin-right: 20px;
  margin-left: 20px;
  margin-top: 0px;
- background-color:#f4d897;
+background-color:#fcc163;
  text-align: center;
- align-items:center;*/
+ align-items:center;
 }
 
 /*h3 {
@@ -86,7 +86,7 @@ li {
 .content {
  display: flex;
  flex-wrap:wrap;
- background-color:#f4d897;
+ background-color:#fcc163;
  padding: 10px;
  text-align: center;
  align-content:center;
@@ -120,7 +120,7 @@ p {
  justify-content:center;
  font-family: 'Bellefair', serif;
  font-size: 20px;
- background-color:#f4d897;
+ background-color:#fcc163;
  text-align: left;
  line-height: 30px;
  margin: 0 auto;
